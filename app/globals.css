@@ -17,11 +17,65 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background-color: #fff;
+}
+
+.searchInput {
+  background-color: #e7e7e7;
+  color: #000;
+  padding: 15px 30px;
+  width: 100%;
+}
+
+.embeddings {
+  position: absolute;
+  bottom: 40px;
+  left: 10px;
+  background-color:#353740;
+  padding: 10px;
+  color:#fff;
+  font-size: 12px;
+  border-radius: 5px;
+}
+
+.result-text {
+  width: 100%;
+  text-align: left;
+  padding: 40px 0;
+  line-height: 1.7em;
+  
+}
+
+.p-2 {
+  margin-right: 15px;
+}
+
+.heading {
+  font-size:42px;
+  padding-bottom:20px;
+  text-align: left;
+}
+
+.loader {
+  padding-top: 20px;
+}
+
+ol, ul {
+  list-style: normal !important;
+}
+
+.chatImg {
+  margin-top:40px;
+  margin-right: 20px;
+}
+
+.items-start {
+}
+
+.w-10 {
+  width:30px
+}
+
+.h-10 {
+  height:30px
 }
